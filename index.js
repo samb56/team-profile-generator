@@ -132,9 +132,10 @@ function renderSite(data) {
 <body class="bg-success bg-opacity-50">
 
 <h1 class="text-center text-bg-success text-white">My Team</h1>
+<div class="d-flex p-2 justify-content-evenly">
 ${data}
 
-
+</div>
 
 
 
