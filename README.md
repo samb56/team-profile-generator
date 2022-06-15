@@ -10,7 +10,7 @@
 
   ## Description 
   Uses user input to generate profile cards for employees with basic info displayed. Currently set up for 3 catagories of employees: manager, intern, and engineer. Displays the employees: name, title, email, and ID number as well as: GitHub link, office number, or school(where applicable). The script can generator can create as many profiles as you like and can be used to make a display a professional team. Great for quickly creating a basic html setup of profile cards.
-  ![Sample Screenshot of HTML Output!](screenshot.jpg)
+  ![Sample Screenshot of HTML Output!](screenshot.JPG)
 
   ## Installation 
   Install the zip folder and extract all of the contents. Access the directory within a terminal and run the command "node index.js" to initiate the script.
