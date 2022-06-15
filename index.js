@@ -5,8 +5,8 @@ const inquirer = require("inquirer");
 inquirer.prompt([
   {
     type: 'list',
-    name: 'position',
-    message: ['manager', 'engineer', 'intern'],
+    name: 'title',
+    choices: ['manager', 'engineer', 'intern'],
   },
   {
     type: 'input',
@@ -26,7 +26,12 @@ inquirer.prompt([
   
 ])
   .then((data) => {
-    fs.writeFile('README.md', generateMarkdown(data), (err) =>
-      err ? console.log(err) : console.log('Success!'));
-    console.log(data)
-  })
+  printData(data, (err) =>
+    err ? console.log(err) : console.log('Success!'));
+  console.log(data)
+})
+
+function printData(data){
+  console.log(data)
+}
+// fs.writeFile('README.md', generateMarkdown(data)
